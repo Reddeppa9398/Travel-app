@@ -12,6 +12,7 @@ body {
   font-family: Arial, sans-serif; 
   background: #f7f6f2; 
   color: #1c1c1c; 
+
 } 
  
 button, 
@@ -252,15 +253,24 @@ button {
   line-height: 1.6; 
 } 
  
-.explore-btn { 
-  border: none; 
-  background: none; 
- 
-  padding: 20px 0 0; 
- 
-  font-weight: 700; 
-} 
- 
+.explore-btn {
+  border: none;
+  background: #111;
+  color: white;
+
+  padding: 12px 20px;
+  margin-top: 18px;
+
+  border-radius: 25px;
+  font-weight: 700;
+  cursor: pointer;
+
+  transition: transform 0.25s ease;
+}
+
+.explore-btn:hover {
+  transform: translateY(-3px);
+}
 /* FEATURES */ 
  
 .feature-section { 
